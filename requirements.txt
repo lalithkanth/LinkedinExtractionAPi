@@ -1,4 +1,3 @@
 flask
-request
-jsonify
+requests
 linkedin_api
