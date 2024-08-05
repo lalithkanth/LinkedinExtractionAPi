@@ -3,7 +3,7 @@ from linkedin_api import Linkedin
 import json
 import os
 
-app = Flask(name)
+app = Flask(__name__)
 
 # Function to authenticate and handle challenges
 def authenticate_linkedin():
